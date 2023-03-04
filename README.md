@@ -48,19 +48,21 @@ Before proceeding, please make sure you have the following:
     ```
 
 ## Usage instructions
-⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
 
-Include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+### Confirming that the module is working properly
 
-![Hackathon Logo](docs/images/hackathon.png?raw=true "Hackathon Logo")
+To confirm that the module is working properly, please follow these steps:
 
-You can embed images of different formats too:
+* Access the following URL: https://xmcloud.local. Immediately after the page loads, you should see the default datasource.
 
-![Deal With It](docs/images/deal-with-it.gif?raw=true "Deal With It")
+![Hackathon Logo](docs/images/01-DefaultDatasource.png?raw=true "")
 
-And you can embed external images too:
+* After Personalize finishes processing, the default datasource should be replaced with variation 1 ...
 
-![Random](https://thiscatdoesnotexist.com/)
+![Hackathon Logo](docs/images/02-VAR1.png?raw=true)
 
-## Comments
-If you'd like to make additional comments that is important for your module entry.
+... or variation 2
+
+![Hackathon Logo](docs/images/03-VAR2.png?raw=true)
+
+With this, you'll know that personalized is doing its magic!
