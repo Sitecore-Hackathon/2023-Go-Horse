@@ -66,3 +66,48 @@ To confirm that the module is working properly, please follow these steps:
 ![Hackathon Logo](docs/images/03-VAR2.png?raw=true)
 
 With this, you'll know that personalized is doing its magic!
+
+### Configuring personalization on XM Cloud
+
+Content Editors can configure personalization on XM Cloud the same way they do with any normal personalization. The module with a custom condition which is responsible for communicating the proper datasource to CDP.
+
+![Hackathon Logo](docs/images/04-Condition.png?raw=true)
+
+The Web Experience ID can be taken from the personalize experience URL as shown below:
+
+![Hackathon Logo](docs/images/06-ExperienceId.png?raw=true)
+
+The experience value is an arbitrary value that you can determine as part of your web experience logic in Personalize. For instance, this value can be an index, ages, geo region, or any other value that makes sense to your business.  
+
+This is how we configured this demo in the home page:
+
+![Hackathon Logo](docs/images/05-PersonalizationSetup.png?raw=true)
+<br /><br />
+### Hooking up your component with Personalize
+
+In order to have Personalize automatically binding the datasource to your component, you have to add attributes to the markup as seen below:
+
+![Hackathon Logo](docs/images/07-ComponentMarkup.png?raw=true)
+
+* `cdp-container`: the guid of the datasource item, represing the component container.
+* `cdp-field`: the field name to be rendered in that HTML element.
+
+### Configuring your Web Experience
+
+It's very easy to retrieve and use the datasource item from XM-Cloud inside Personalize using our helper methods.
+
+```javascript
+(function() {
+  // Randomly sets experienceValue to 1 or 2
+  const experienceValue = Math.floor(Math.random() * 2) + 1;
+
+  // Get datasource from CMS
+  const datasource = GetDatasource(debugFlow.definition.ref, experienceValue);
+
+  // Automatically render fields
+  PopulateBlock(datasource);
+})();
+```
+
+If the `PopulateBlock` method is not enough to render all your fields, you can always use the datasource object directly with JavaScript to implement your complex business logic.
+
