@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="js\personalizeconnect.js" />
     <Content Include="layouts\Sample layout.aspx" />
     <Content Include="xsl\sample rendering.xslt" />
   </ItemGroup>

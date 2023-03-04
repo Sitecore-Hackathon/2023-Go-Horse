@@ -74,9 +74,12 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Controllers\PersonalizeConnectController.cs" />
     <Compile Include="Processors\LoadRoutes.cs" />
     <Compile Include="Rules\PersonalizeConnectCondition.cs" />
+    <Compile Include="Services\IPersonalizeConnectService.cs" />
+    <Compile Include="Services\PersonalizeConnectService.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

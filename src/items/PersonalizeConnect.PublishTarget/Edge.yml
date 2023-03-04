@@ -1,0 +1,34 @@
+﻿---
+ID: "8e080626-ddc3-4ef4-a1d1-f0be4a200254"
+Parent: "d9e44555-02a6-407a-b4fc-96b9026caadd"
+Template: "e130c748-c13b-40d5-b6c6-4b150dc3fab3"
+Path: /sitecore/system/Publishing targets/Edge
+SharedFields:
+- ID: "39ecfd90-55d2-49d8-b513-99d15573de41"
+  Hint: Target database
+  Value: web
+- ID: "73328647-4afe-43a2-bbda-afb4f6b9ad46"
+  Hint: Publish to Experience Edge
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230304T142000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cb91818-e345-489f-9743-c97b3838f318"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230304T142136Z
