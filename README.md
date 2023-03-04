@@ -96,7 +96,7 @@ In order to have Personalize automatically binding the datasource to your compon
 * `cdp-container`: the guid of the datasource item, represing the component container.
 * `cdp-field`: the field name to be rendered in that HTML element.
 
-### Configuring your Web Experience
+### Configuring your Personalize Web Experience
 
 It's very easy to retrieve and use the datasource item from XM-Cloud inside Personalize using our helper methods.
 
