@@ -12,6 +12,55 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{4E1770AF-86BA-4B7B-AFF3-C57D85D0095D}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="574606BDF2A24E10AE83483C56C8419C"
+                        s:id="{8DCAA413-D590-4B02-B471-66E62ED57A0D}"
+                        s:experienceId="04a8da55-3f0c-45be-b7b7-219671886314"
+                        s:comparesTo="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                        s:experienceValue="2" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="2DCA21B824F047F587EA8602FACCE14B"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{C0475B5E-F96B-464C-80C1-23B1293A9956}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="52752B923EC94C13AC0903F2E91CAC71"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9C71690A1FCA44888BDBE50AD187AC13"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{46F75B8A-33E1-44D4-B760-55E6E8638907}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230201T131514Z
@@ -39,7 +88,7 @@ Languages:
         <link text="Facebook" linktype="external" url="https://www.facebook.com" anchor="" title="Facebook" class="style1" target="_blank" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "81cfeeaa-7c13-4520-afb2-5d9e2d2de7be"
+      Value: "0167e4a0-a0c9-439e-b037-91730f7e6f0b"
     - ID: "a60acd61-a6db-4182-8329-c957982cec74"
       Hint: Text
       Value: This is the <strong>Variation 1</strong>
@@ -49,4 +98,4 @@ Languages:
         sitecore\rpeplau@arke.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230304T130450Z
+      Value: 20230304T213227Z
