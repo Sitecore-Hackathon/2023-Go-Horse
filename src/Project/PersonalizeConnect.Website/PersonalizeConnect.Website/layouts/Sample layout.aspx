@@ -19,7 +19,7 @@
 		var _boxever_settings = {
 			client_key: 'psfu6uh05hsr9c34rptlr06dn864cqrx', 
 			target: 'https://api.boxever.com/v1.3', 
-            cookie_domain: 'xmcloudcm.local', // Optional
+            cookie_domain: 'xmcloud.local', // Optional
 			pointOfSale: 'gohorse-2023', 
 			web_flow_target: 'https://d35vb5cccm4xzp.cloudfront.net', 
 			//web_flow_config: { async: false, defer: false },

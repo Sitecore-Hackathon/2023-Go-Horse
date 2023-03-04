@@ -79,7 +79,7 @@ try {
     & $mkcert -install
     & $mkcert "*.sxastarter.localhost"
     & $mkcert "xmcloudcm.localhost"
-	& $mkcert "xmcloudcm.local"
+	& $mkcert "xmcloud.local"
 
     # stash CAROOT path for messaging at the end of the script
     $caRoot = "$(& $mkcert -CAROOT)\rootCA.pem"
@@ -99,7 +99,7 @@ finally {
 Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 
 Add-HostsEntry "xmcloudcm.localhost"
-Add-HostsEntry "xmcloudcm.local"
+Add-HostsEntry "xmcloud.local"
 Add-HostsEntry "www.sxastarter.localhost"
 
 ###############################

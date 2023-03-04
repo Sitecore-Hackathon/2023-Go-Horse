@@ -121,6 +121,6 @@ services:
       - "traefik.http.middlewares.force-STS-Header.headers.forceSTSHeader=true"
       - "traefik.http.middlewares.force-STS-Header.headers.stsSeconds=31536000"
       - "traefik.http.routers.cm-secure.entrypoints=websecure"
-      - "traefik.http.routers.cm-secure.rule=Host(`${CM_HOST}`,`xmcloudcm.local`)"
+      - "traefik.http.routers.cm-secure.rule=Host(`${CM_HOST}`,`xmcloud.local`)"
       - "traefik.http.routers.cm-secure.tls=true"
       - "traefik.http.routers.cm-secure.middlewares=force-STS-Header"
