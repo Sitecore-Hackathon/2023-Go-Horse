@@ -55,9 +55,9 @@ Before proceeding, please make sure you have the following:
 
 ### Confirming that the module is working properly
 
-To confirm that the module is working properly, please follow these steps:
+To confirm that the module is working properly, access the following URL: https://xmcloud.local
 
-* Access the following URL: https://xmcloud.local. Immediately after the page loads, you should see the default datasource.
+* Immediately after the page loads, you should see the default datasource.
 
 ![Default Datasource](docs/images/01-DefaultDatasource.png?raw=true "")
 
