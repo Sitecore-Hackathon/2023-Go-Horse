@@ -32,18 +32,20 @@ Before proceeding, please make sure you have the following:
 
 ## Installation instructions
 
-1. Open `PersonalizeConnect.sln` and publish it without building/rebuilding the solution.
+1. Clone this repository
+
+2. Open `PersonalizeConnect.sln` and publish it without building/rebuilding the solution.
 
 > Note: It's important to avoid building or rebuilding the solution as it may break the CM container. However, if you accidently do so, make sure to run a Clean solution before publishing it.
 
-2. Open an ADMIN terminal and execute the following command
+3. Open an ADMIN terminal and execute the following command
 
     ```ps1
     .\init.ps1 -InitEnv -LicenseXmlPath "C:\path\to\license.xml" -AdminPassword "DesiredAdminPassword"
     ```
 > Make sure to replace "C:\path\to\license.xml" with the actual file path of your license.xml file and  "DesiredAdminPassword" with a desired password for the admin account.
 
-3. Now, execute the following command:
+4. Now, execute the following command:
 
     ```ps1
     .\up.ps1
