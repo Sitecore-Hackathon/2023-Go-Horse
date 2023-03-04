@@ -1,4 +1,4 @@
-# CDP Personalize Connector for Sitecore XM Cloud
+# Personalize Connector for XM Cloud
 
 ## Team
 ⟹ **Go Horse**
