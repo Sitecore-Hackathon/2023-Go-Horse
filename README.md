@@ -27,12 +27,10 @@ By maintaining the separation of responsibilities, our CDP Personalize Connector
 
 ⟹ [Replace this Video link](#video-link)
 
-
-
 ## Pre-requisites and Dependencies
 
 - A CDP account (optional)
-- Docker for Windows installed and configured
+- [Docker for Windows installed](https://docs.docker.com/desktop/install/windows-install/) and configured
 
 ## Installation instructions
 
