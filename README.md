@@ -50,26 +50,6 @@ By maintaining the separation of responsibilities, our CDP Personalize Connector
 
 3. Follow the instructions to [deploy to XM Cloud](#deploy-to-xmcloud)
 
-⟹ Write a short clear step-wise instruction on how to install your module.  
-
-> _A simple well-described installation process is required to win the Hackathon._  
-> Feel free to use any of the following tools/formats as part of the installation:
-> - Sitecore Package files
-> - Docker image builds
-> - Sitecore CLI
-> - msbuild
-> - npm / yarn
-> 
-> _Do not use_
-> - TDS
-> - Unicorn
- 
-for example:
-
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ...
-3. profit
-
 ### Configuration
 ⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
 
