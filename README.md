@@ -46,7 +46,7 @@ Before proceeding, please make sure you have the following:
     .\up.ps1
     ```
 
-4. Open `PersonalizeConnect.sln` and publish it without building/rebuilding the solution.
+4. Open `PersonalizeConnect.sln`, Clean the solution and publish it without building/rebuilding the solution.
 
 > Note: It's important to avoid building or rebuilding the solution as it may break the CM container. However, if you accidently do so, make sure to run a Clean solution before publishing it.
 
