@@ -1,0 +1,101 @@
+﻿---
+ID: "46f75b8a-33e1-44d4-b760-55e6e8638907"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Home/VAR1
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{4E1770AF-86BA-4B7B-AFF3-C57D85D0095D}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="574606BDF2A24E10AE83483C56C8419C"
+                        s:id="{8DCAA413-D590-4B02-B471-66E62ED57A0D}"
+                        s:experienceId="04a8da55-3f0c-45be-b7b7-219671886314"
+                        s:comparesTo="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                        s:experienceValue="2" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="2DCA21B824F047F587EA8602FACCE14B"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{C0475B5E-F96B-464C-80C1-23B1293A9956}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="52752B923EC94C13AC0903F2E91CAC71"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9C71690A1FCA44888BDBE50AD187AC13"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{46F75B8A-33E1-44D4-B760-55E6E8638907}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230201T131514Z
+    - ID: "331af57f-6b5f-416c-9a37-d4811549eae1"
+      Hint: Image
+      Value: |
+        <image mediaid="{710D2188-92FC-4AA4-9486-DBBD106ACE4D}" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: VAR1
+    - ID: "79ad8264-18a1-4b59-bacc-52fe1e993ccd"
+      Hint: Link
+      Value: |
+        <link text="Facebook" linktype="external" url="https://www.facebook.com" anchor="" title="Facebook" class="style1" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0167e4a0-a0c9-439e-b037-91730f7e6f0b"
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: This is the <strong>Variation 1</strong>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230304T213227Z

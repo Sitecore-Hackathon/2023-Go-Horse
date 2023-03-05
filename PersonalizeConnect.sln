@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Files", "_Solution Files", "{196B5D43-B228-4632-9BC3-EAAF79B4EDA5}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		README.md = README.md
+		sitecore.json = sitecore.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{3855C6B2-55E7-4A21-883F-B44D19AA814A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{129B8B36-05D4-47FC-A4CB-AF8979FA65F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{17F45311-DDA5-40BD-B598-FEFD4D6902F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersonalizeConnect", "PersonalizeConnect", "{D7438C90-B5F2-4CFD-A8C9-0ECD5F1C1B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Personalize", "src\Feature\Feature.Personalize\Feature.Personalize\Feature.Personalize.csproj", "{C0DDDCE8-6861-4A57-A907-05417C3376FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersonalizeConnect", "PersonalizeConnect", "{BCA1D6FD-B300-45E9-BB13-6A27484FB664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalizeConnect.Website", "src\Project\PersonalizeConnect.Website\PersonalizeConnect.Website\PersonalizeConnect.Website.csproj", "{AD57ED69-447E-49DD-B335-5206831F83C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0DDDCE8-6861-4A57-A907-05417C3376FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DDDCE8-6861-4A57-A907-05417C3376FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DDDCE8-6861-4A57-A907-05417C3376FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DDDCE8-6861-4A57-A907-05417C3376FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD57ED69-447E-49DD-B335-5206831F83C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD57ED69-447E-49DD-B335-5206831F83C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD57ED69-447E-49DD-B335-5206831F83C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD57ED69-447E-49DD-B335-5206831F83C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7438C90-B5F2-4CFD-A8C9-0ECD5F1C1B03} = {129B8B36-05D4-47FC-A4CB-AF8979FA65F4}
+		{C0DDDCE8-6861-4A57-A907-05417C3376FF} = {D7438C90-B5F2-4CFD-A8C9-0ECD5F1C1B03}
+		{BCA1D6FD-B300-45E9-BB13-6A27484FB664} = {17F45311-DDA5-40BD-B598-FEFD4D6902F6}
+		{AD57ED69-447E-49DD-B335-5206831F83C3} = {BCA1D6FD-B300-45E9-BB13-6A27484FB664}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7C4987-3A11-41A9-8915-5457EF7B5A6F}
+	EndGlobalSection
+EndGlobal

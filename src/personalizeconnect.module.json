@@ -1,0 +1,26 @@
+{
+    "namespace": "PersonalizeConnect",
+    "items": {
+        "includes": [
+			{
+				"name": "PersonalizeConnect.Tags",
+				"path": "/sitecore/system/Settings/Rules/Definitions/Tags/Personalize Connect"
+			},{
+				"name": "PersonalizeConnect.Elements",
+				"path": "/sitecore/system/Settings/Rules/Definitions/Elements/Personalize Connect"
+			},{
+				"name": "PersonalizeConnect.PublishTarget",
+				"path": "/sitecore/system/Publishing targets/Edge"
+			},{
+				"name": "PersonalizeConnect.Template",
+				"path": "/sitecore/templates/Sample/Sample Item"
+			},{
+				"name": "PersonalizeConnect.Content",
+				"path": "/sitecore/content/Home"
+			},{
+				"name": "PersonalizeConnect.ConditionalRenderings",
+				"path": "/sitecore/system/Settings/Rules/Conditional Renderings/Tags/Default"
+			}
+		]
+	}
+}

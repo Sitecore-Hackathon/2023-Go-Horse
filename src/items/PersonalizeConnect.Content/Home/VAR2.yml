@@ -1,0 +1,52 @@
+﻿---
+ID: "c0475b5e-f96b-464c-80c1-23b1293a9956"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Home/VAR2
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230201T131525Z
+    - ID: "331af57f-6b5f-416c-9a37-d4811549eae1"
+      Hint: Image
+      Value: |
+        <image mediaid="{7992E405-A9BA-49E0-8C87-C88060756731}" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: VAR2
+    - ID: "79ad8264-18a1-4b59-bacc-52fe1e993ccd"
+      Hint: Link
+      Value: |
+        <link text="LinkedIn" linktype="external" url="https://www.linkedin.com" anchor="" title="LinkedIn" class="style2" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92211b91-d317-4df1-829e-196087e44e0f"
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: This is the <strong>Variation 2</strong>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rpeplau@arke.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230304T130535Z
