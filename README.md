@@ -50,6 +50,7 @@ Before proceeding, please make sure you have the following:
 
 > Note: It's important to avoid building or rebuilding the solution as it may break the CM container. However, if you accidently do so, make sure to run a Clean solution before publishing it.
 
+5. Publish the Website
 
 ## Usage instructions
 
