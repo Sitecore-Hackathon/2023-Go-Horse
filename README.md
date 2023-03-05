@@ -19,9 +19,8 @@ With our solution, users can seamlessly manage and update content in Sitecore XM
 By maintaining the separation of responsibilities, our Connector ensures that content and personalization are handled by the appropriate systems, reducing the risk of errors and simplifying the content management process.
 
 ## Video link
-⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
 
-⟹ [Replace this Video link](#video-link)
+⟹ [Video: Personalize Connector for XM Cloud](https://youtu.be/mPGGNcIrB_s?target=_new)
 
 ## Pre-requisites and Dependencies
 
