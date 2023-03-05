@@ -67,7 +67,6 @@
   <ItemGroup>
     <None Include="PersonalizeConnect.Website.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup />
