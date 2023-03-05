@@ -20,7 +20,7 @@ By maintaining the separation of responsibilities, our Connector ensures that co
 
 ## Video link
 
-⟹ [Video: Personalize Connector for XM Cloud](https://youtu.be/mPGGNcIrB_s?target=_new)
+⟹ [Video: Personalize Connector for XM Cloud](https://youtu.be/mPGGNcIrB_s)
 
 ## Pre-requisites and Dependencies
 
