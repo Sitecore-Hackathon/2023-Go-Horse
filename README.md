@@ -92,7 +92,7 @@ In order to have Personalize automatically binding the datasource to your compon
 
 ![Component Markup](docs/images/07-ComponentMarkup.png?raw=true)
 
-* `cdp-container`: the guid of the datasource item, represing the component container.
+* `cdp-container`: the guid of the datasource item, representing the component container.
 * `cdp-field`: the field name to be rendered in that HTML element.
 
 ### Configuring your Personalize Web Experience
